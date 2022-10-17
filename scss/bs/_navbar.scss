@@ -27,13 +27,18 @@
   --#{$prefix}navbar-toggler-transition: #{$navbar-toggler-transition};
   // scss-docs-end navbar-css-vars
 
-  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
   display: flex;
   flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
   justify-content: space-between; // space out brand from logo
   padding: var(--#{$prefix}navbar-padding-y) var(--#{$prefix}navbar-padding-x);
   @include gradient-bg();
+  background-color: #232222f5;
+  z-index: 1;
 
   // Because flex properties aren't inherited, we need to redeclare these first
   // few properties so that content nested within behave properly.
@@ -150,7 +155,7 @@
   @include font-size(var(--#{$prefix}navbar-toggler-font-size));
   line-height: 1;
   color: var(--#{$prefix}navbar-color);
-  background-color: transparent; // remove default button style
+  background-color: $rojo-gremio; // remove default button style
   border: var(--#{$prefix}border-width) solid var(--#{$prefix}navbar-toggler-border-color); // remove default button style
   @include border-radius(var(--#{$prefix}navbar-toggler-border-radius));
   @include transition(var(--#{$prefix}navbar-toggler-transition));
