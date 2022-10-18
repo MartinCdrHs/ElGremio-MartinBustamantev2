@@ -7647,8 +7647,11 @@ body {
   margin: 0;
   padding-top: 145px; }
 
-.rojo-gremio {
+.rojo-gremio, #comunicado-titulo {
   color: #cc0d0d; }
+
+.texto-blanco, h2, .h2, #int-selec, .figure-caption {
+  color: #ffffff; }
 
 .nav-img {
   border-radius: 15px; }
@@ -7659,6 +7662,67 @@ body {
 
 .nav-item {
   margin: 5px; }
+
+header {
+  padding: 15px; }
+
+h1, .h1 {
+  text-align: center;
+  font-size: 30px; }
+
+h2, .h2 {
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  margin: 10px 0 50px 0; }
+
+.h2-grande {
+  font-size: 17px; }
+
+.grid-primera-letra {
+  text-align: justify;
+  display: grid;
+  grid-template-areas: "letra-inicial fraccion" "resto-parrafo resto-parrafo";
+  grid-template-columns: 50px auto;
+  align-items: center; }
+
+.letra-inicial {
+  font-size: 50px;
+  grid-area: letra-inicial; }
+
+.fraccion {
+  grid-area: fraccion; }
+
+.resto-parrafo {
+  grid-area: resto-parrafo; }
+
+main {
+  padding: 15px; }
+
+#int-selec {
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+  margin: 0; }
+  #int-selec span {
+    font-size: 28px; }
+
+.container {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.figure {
+  padding-top: 15px; }
+
+.figure-caption {
+  font-size: 15px; }
+
+.img-fluid {
+  width: 100%; }
+
+#comunicado-titulo {
+  font-size: 20px;
+  padding: 15px; }
 
 @media screen and (min-width: 768px) {
   /* En pagina carta - Main */
