@@ -7672,9 +7672,9 @@ body {
   footer {
     padding: 20px 10px;
     justify-content: right; }
-  footer ul li {
-    font-size: 20px;
-    padding: 5px; } }
+    footer ul li {
+      font-size: 20px;
+      padding: 5px; } }
 
 @media screen and (min-width: 992px) {
   /* En nav */
