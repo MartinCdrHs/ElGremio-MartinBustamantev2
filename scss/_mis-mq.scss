@@ -80,9 +80,6 @@
     }
 
     .grid-primera-letra{
-        grid-template-areas:
-        "letra-inicial fraccion"
-        "resto-parrafo resto-parrafo" ;
         grid-template-columns: 65px auto;
     }
 
@@ -124,4 +121,16 @@
         font-weight: bolder;
     }
 
+    // En Footer
+
+    footer{
+        ul{
+            li{
+                img{
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+    }
 }

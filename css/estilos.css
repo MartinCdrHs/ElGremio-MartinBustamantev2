@@ -7650,7 +7650,7 @@ body {
 .rojo-gremio, #comunicado-titulo {
   color: #cc0d0d; }
 
-.texto-blanco, h2, .h2, .figure-caption, #int-selec, .titulo-carta, .lista-carta, #dir-mapa {
+.texto-blanco, h2, .h2, .figure-caption, #int-selec, .titulo-carta, .lista-carta, #dir-mapa, footer ul li {
   color: #ffffff; }
 
 .nav-img {
@@ -7877,6 +7877,22 @@ main {
   font-size: 15px;
   border-radius: 5px; }
 
+footer {
+  margin-top: 40px;
+  padding: 20px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer ul {
+    list-style: none;
+    padding: 0; }
+    footer ul li {
+      display: inline-block;
+      padding: 3px; }
+      footer ul li img {
+        height: 35px;
+        width: 35px; }
+
 @media screen and (min-width: 768px) {
   /* En pagina carta - Main */
   .lista-carta {
@@ -7926,7 +7942,6 @@ main {
   #comunicado-titulo {
     font-size: 35px; }
   .grid-primera-letra {
-    grid-template-areas: "letra-inicial fraccion" "resto-parrafo resto-parrafo";
     grid-template-columns: 65px auto; }
   .letra-inicial {
     font-size: 65px; }
@@ -7949,4 +7964,7 @@ main {
   .boton:hover {
     background-color: #000000;
     color: #cc0d0d;
-    font-weight: bolder; } }
+    font-weight: bolder; }
+  footer ul li img {
+    height: 40px;
+    width: 40px; } }
