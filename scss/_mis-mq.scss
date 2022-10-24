@@ -18,9 +18,10 @@
     footer{
         padding: 20px 10px;
         justify-content: right;
-        ul li {
+        ul{
+            li {
             font-size: 20px;
-            padding: 5px;
+            padding: 5px;}
         }
     }
 }
@@ -29,14 +30,17 @@
 
     /* En nav */
 
-    nav ul li:hover{
-        transform: scale(1.1);
-        transition-duration: 0.5s;
-        text-decoration: underline;
-        border-style: solid;
-        border-width: 1.5px;
-        border-radius: 3px;
-        border-color: #cc0d0d;
+    nav{ 
+        ul{
+            li:hover{
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+            text-decoration: underline;
+            border-style: solid;
+            border-width: 1.5px;
+            border-radius: 3px;
+            border-color: #cc0d0d;}
+        }
     }
 
     .nav-link:hover{
