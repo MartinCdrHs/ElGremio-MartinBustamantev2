@@ -4,6 +4,10 @@
     grid-template-areas:
     "mapa"
     "dir-mapa";
+    div{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 #mapa{
